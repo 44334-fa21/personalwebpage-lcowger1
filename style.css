@@ -1,1 +1,40 @@
-/*Personal Web Page Style Sheet */
+body {
+  background-color: red;
+}
+head {
+  color: red;
+}
+h3 {
+  color: darkgrey;
+  font-family: "times new roman", Times, serif;
+}
+.column {
+  float: left;
+  width: 50%;
+  }
+  .row:after {
+    clear: both;
+    content:"";
+    display: table;
+  }
+  a:link {
+    color:black;
+  }
+  a:visited {
+    color:darkgray;
+  }
+  a:hover {
+    color: #eee111;
+  }
+  li {
+    font-style: italic;
+    font-weight: bold;
+  }
+img {
+  padding-left: 10px;
+}
+header {
+  color: darkgrey;
+  font-family: "Times New Roman", times, serif;
+  font-size: 5em;
+}
